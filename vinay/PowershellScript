@@ -1,0 +1,8 @@
+
+# synopsis
+ # powershell example for practice
+ #Description
+ # create resource group and storage account
+
+ $rg = az group create --location northcentralus --name powersgroup
+# $sg = az storage account create -n (any name) -g ( group name given above) -l
